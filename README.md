@@ -1,1 +1,3 @@
-# holbertonschool-web_react
+# Holbertonschool-web_react
+
+## Typescript
