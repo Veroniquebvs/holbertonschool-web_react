@@ -1,0 +1,10 @@
+# Dépendances (Le dossier le plus lourd, à ignorer absolument)
+node_modules/
+
+# Fichiers de build générés par Webpack (souvent dist/ ou build/)
+dist/
+
+# Fichiers système et configuration d'éditeurs
+.DS_Store
+.vscode/
+*.swp
