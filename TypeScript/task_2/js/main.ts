@@ -1,17 +1,17 @@
 //TASK 5----------------------------------//
-interface DirectorInterface {
+export interface DirectorInterface {
     workFromHome(): string
     getCoffeeBreak(): string
     workDirectorTasks(): string
 }
 
-interface TeacherInterface {
+export interface TeacherInterface {
     workFromHome(): string
     getCoffeeBreak(): string
     workTeacherTasks(): string
 }
 
-class Director implements DirectorInterface {
+export class Director implements DirectorInterface {
     workFromHome(): string {
         return ("Working from home");
     }
@@ -23,7 +23,7 @@ class Director implements DirectorInterface {
     }
 }
 
-class Teacher implements TeacherInterface{
+export class Teacher implements TeacherInterface{
     workFromHome(): string {
         return ("Cannot work from home");
     }
